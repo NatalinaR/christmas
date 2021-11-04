@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Ceviche+One&family=Fruktur&display=swap');
+png {max-width: 100%; height: 100%;}
+.heading {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 19px;
+    padding-top: 45px;
+    font-family: 'Ceviche One', cursive;
+    font-size: 50px;
+}
+
+.look, 
+.look1  {
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Ceviche One', cursive;
+    background-color: rgba(250, 29, 0, 0.781);
+    border: 0;
+    border-radius: 7px;
+    height: calc(184px + (150 - 184) * ((100vw - 420px) / (1920 - 420)));
+    overflow: hidden;  
+    width: calc(133px + (99 - 133) * ((100vw - 320px) / (1920 - 320)));
+    flex-wrap: wrap;
+    margin: 5px;
+}
+
+.display {
+    overflow: hidden;
+    margin: auto;
+    position: relative;
+    padding-top: 10px;
+}
+
+.blocks {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+body {
+    margin: 40px;
+    background: url(forest.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+
+.top{
+    height: 400px; 
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+img {
+    max-height: 400px;
+    max-width: 600px;
+    margin: 10px;
+    position:relative;
+    border-radius: 20px;
+}
+.top:empty {
+    display: none;
+}
+
